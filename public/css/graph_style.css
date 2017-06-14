@@ -1,0 +1,274 @@
+
+/*-------- FONT FAMILY ----------*/
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('../fonts/opensans-semibold.eot');
+    src: url('../fonts/opensans-semibold.eot') format('embedded-opentype'),
+         url('../fonts/opensans-semibold.woff') format('woff'),
+         url('../fonts/opensans-semibold.ttf') format('truetype'),
+         url('../fonts/opensans-semibold.svg#OpenSansSemibold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/opensans-bold.eot');
+    src: url('../fonts/opensans-bold.eot') format('embedded-opentype'),
+         url('../fonts/opensans-bold.woff') format('woff'),
+         url('../fonts/opensans-bold.ttf') format('truetype'),
+         url('../fonts/opensans-bold.svg#OpenSansBold') format('svg');
+}
+/*General style starts*/
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+#main-sortable-area{
+    font-family: 'OpenSansRegular';
+    font-size:15px;
+    min-height: 400px;
+    overflow: auto;
+    height: auto;
+    width: auto;
+}
+#main-sortable-area .clearfix{
+    display: none;
+}
+
+.portlet-container{
+    margin-bottom: 20px;
+    cursor: move;
+}
+.chart_modifier {
+    padding: 10px;
+}
+.main-sortable-area {
+    padding-bottom: 100px;
+    clear: both;
+}
+.portlet-content {
+    height: 200px;
+    overflow: auto;
+}
+.portlet-header {
+    padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #f27a53;
+    border: none;
+}
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -10px;
+    height: 17px;
+    width: 20px;
+    cursor: pointer;
+}
+.portlet-placeholder {
+    border: 1px dotted black;
+    height: 200px;
+    min-width: 254px;
+    margin: 0 15px;
+    float: left;
+    display: block;
+    background-color: #e9e9e9;
+}
+.ui-sortable .ui-widget-content {
+    border: none;
+}
+.portlet {
+    overflow: hidden;
+}
+.portlet:hover .trash_block{
+    display: block;
+}
+.trash_block{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    z-index: 1;
+}
+
+/*Specific box style starts */
+.visitor_count .portlet-content, .avg_dwell_time .portlet-content, .total_exhibit_score .portlet-content, .virtual_business_cards_exchanged .portlet-content, .audience_of_interest .portlet-content, .no_of_booths_with_highest_dwell_time .portlet-content, .no_of_booths_with_lowest_dwell_time .portlet-content, .loyalty_map .portlet-content, .visit_to_buy .portlet-content, .most_engaging_section .portlet-content, .notification_triggers .portlet-content {
+    text-align: center;
+    background: #df577b;
+    color: #fff;
+}
+.visitor_count .portlet-content, .avg_dwell_time .portlet-content {
+    background: #418bca;
+}
+.total_exhibit_score .portlet-content, .loyalty_map .portlet-content {
+    background: #ef6f6c;
+}
+.virtual_business_cards_exchanged .portlet-content, .most_engaging_section .portlet-content {
+    background: #f89a14;
+}
+.audience_of_interest .portlet-content, .notification_triggers .portlet-content {
+    background: #00bc8c;
+}
+.no_of_booths_with_highest_dwell_time .portlet-content{
+    background: #43c2fb;
+}
+.no_of_booths_with_lowest_dwell_time .portlet-content {
+    background: #31b2bb;
+}
+.visitor_count .lbl, .avg_dwell_time .lbl, .total_exhibit_score .lbl, .virtual_business_cards_exchanged .lbl, .audience_of_interest .lbl, .no_of_booths_with_highest_dwell_time .lbl, .no_of_booths_with_lowest_dwell_time .lbl, .loyalty_map .lbl, .visit_to_buy .lbl, .most_engaging_section .lbl, .notification_triggers .lbl{
+    font-size: 18px;
+    font-family: 'OpenSansBold';
+    font-weight: normal;
+    margin: 5px auto;
+    padding:0 10px;
+}
+.visitor_count .text, .avg_dwell_time .text, .total_exhibit_score .text, .virtual_business_cards_exchanged .text, .audience_of_interest .text, .no_of_booths_with_highest_dwell_time .text, .no_of_booths_with_lowest_dwell_time .text, .loyalty_map .text, .visit_to_buy .text, .most_engaging_section .text, .notification_triggers .text{
+    font-size: 44px;
+    font-family: 'OpenSansBold';
+    font-weight: normal;
+}
+.total_exhibit_score .portlet-content, 
+.virtual_business_cards_exchanged .portlet-content, 
+.audience_of_interest .portlet-content, 
+.no_of_booths_with_highest_dwell_time .portlet-content, 
+.no_of_booths_with_lowest_dwell_time .portlet-content {
+    /*background: #666;*/
+    line-height: 200px;
+}
+.total_exhibit_score .portlet-content .content_bx, 
+.virtual_business_cards_exchanged .portlet-content .content_bx, 
+.audience_of_interest .portlet-content .content_bx, 
+.no_of_booths_with_highest_dwell_time .portlet-content .content_bx, 
+.no_of_booths_with_lowest_dwell_time .portlet-content .content_bx{
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.visitor_count .content_bx_1,
+.avg_dwell_time .content_bx_1{
+    padding: 20px 10px;
+}
+.content_bx_3 .text{
+    font-size: 32px;
+}
+
+.avg_dwell_time .text span{
+    font-size: 26px;
+}
+.pd_table_container .portlet{
+    background: #fff;
+}
+.pd_table_container table {
+    border-collapse: separate;
+    border-spacing:1em;
+    background: #fff;
+}
+.pd_table_container table, .pd_table_container table thead th, .pd_table_container table tbody th, .pd_table_container table tbody td {
+    border: none;
+    text-align: center;
+}
+.pd_table_container table thead th {
+    background: #31b2bb;
+    color: #fff;
+    font-size: 20px;    
+    font-family: 'OpenSansBold';
+    font-weight: normal;
+}
+.pd_table_container table thead th:first-child {
+    background: #fff;
+}
+.pd_table_container table tbody th {
+    color: #555555;
+    font-size: 20px;
+    font-family: 'OpenSansSemibold';
+    font-weight: normal;
+}
+.pd_table_container table tbody td {
+    color: #34b2bd;
+    font-size: 23px;
+    font-family: 'OpenSansSemibold';
+    font-weight: normal;
+}
+.b2b_meetings .portlet-header{
+    background: #43c2fb;
+}
+.top_profiles  .portlet-header{
+    background: #9a58a3;
+}
+.industry_participants .portlet-header,
+.b2b_meetings .portlet-header,
+.top_profiles .portlet-header,
+.visitor_clusters .portlet-header,
+.compare_store_visitors .portlet-header{
+    font-size: 22px;
+    font-family: 'OpenSansBold';
+    font-weight: normal;
+}
+
+.industry_participants .portlet-content, .b2b_meetings .portlet-content, .top_profiles .portlet-content, .visitor_clusters .portlet-content{
+    height: 200px;
+}
+.pd_table_container .portlet-content{
+    height: 230px;    
+}
+
+#canvas, #canvasTemp {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#canvas {
+    opacity: 0.9;
+}
+#canvas-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+.drawing-main {
+    margin-top: 10px;
+}
+
+.industry_participants .portlet,
+.b2b_meetings .portlet,
+.top_profiles .portlet,
+.visitor_clusters .portlet{
+    box-shadow: 1px 6px 4px rgba(0, 0, 0, 0.3);
+}
+
+.pd_table_container .portlet-content #canvas-wrapper{
+    width: 100% !important; 
+}
+.pd_table_container .portlet-content #canvas-wrapper canvas{
+    width: 100%;
+}
+
+/*Responsive style starts*/
+@media(max-width: 359px){
+  .portlet-placeholder.ui-corner-all{min-width: 95%; float: none; margin-left:auto; margin-right: auto;}
+}
+@media(min-width: 360px) and (max-width: 380px){
+  .portlet-placeholder.ui-corner-all{min-width: 95%; float: none; margin-left:auto; margin-right: auto;}
+}
+@media(min-width: 381px) and (max-width: 420px){
+  .portlet-placeholder.ui-corner-all{min-width: 95%; float: none; margin-left:auto; margin-right: auto;}
+}
+@media(max-width: 767px){
+  .portlet-placeholder.ui-corner-all{min-width: 95%; float: none; margin-left:auto; margin-right: auto;}
+}
+@media(min-width: 768px) and (max-width: 999px){
+    .portlet-placeholder.ui-corner-all{min-width: 218px;}
+}
+@media(min-width: 1000px) and (max-width: 1030px){
+    .portlet-placeholder.ui-corner-all{min-width: 280px;}
+}

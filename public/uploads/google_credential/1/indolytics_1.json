@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "indolytics-sample",
+  "private_key_id": "951b39f75922469205b6251a5f60b44d1e66245a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCPXkr/9d65SdbJ\nK+eASuQAqDUh6/d0pYlKLaOgj5WGR1476hy853cQ78MQCtqtj3WJQsPqZvXl6i0P\n+6sMOe0xnm8oI87vO1FTW72rDcHdRzcFR9Jy2pUkhxPQUelvcetjxmcnLUmdbRrQ\nzByPPdjcqDHg0tU3nE8GfS4DMEXyUnw58w6XrWAn6FmPoLAPF39qEFOOGi2yIlZ0\nkDByDZBQIsv/dbLUsr18yY9D2g8jjrNl6TG1YSJXyeFtx0uJtXce2NlOccEr7a/f\nUWqWOTK80Kmd02eGo/7cB6OarqQmFeAl3lOADAsxYDRZDP8+OiZZV5CbukaXSt8w\n3UlUeLaHAgMBAAECggEAR5JOJLvMpXlcNW+qkVxRuJZAeB/BmETvZc2k6wnjHnbQ\nb16vXAq9YQIgwgh5JL4CcjSXc5RU26NtPZZozKC6bdPnMAW4T6uwLMoWxKcIifv8\nVrGFOPswC103of7SZ2VamqO4aVFtd565DVVoSIYalgWNaOw3rxxkQxwI9WSK9q5B\ntuAHEH+FxhgSZcZRAZHeI9EY57k/5DhluoP+1HdBEDFZ7ABXPoTGoyAfjtg4XJjQ\nNH87VMxuolQap9+Z6/+xozceXV8NQ5IcIRfj5hmzDhXYpqunkM67EYqwvkhOuz9f\n2VxjQRofAtwlUhwjYlfjwGhpheQMB6NadTLDY177eQKBgQDBAZhO8dc+IOQjBzHC\nr+UcxkeJTqfj1cFbTIMq3w1TlbbHm9lN3LsGU9GGQYgEh/2GbI9LDsMY3kYefCUj\nApOwe0WglEFM42M43tY2jhh4Lq/J0LCdvUMdHKUHGc8D6cMUqvpBV/V/s64WMG78\nKDtSMpiWLPIoQqEXPzy+pZW9gwKBgQC+KUNAaBZbEoMaG2oP3yughxLgUpmcTEj9\nsz0IAwy2pBpLmUdAjb1Zl+K1JPhKb102qpelmKLwkBFFW6Phn65TXdPrWGCmNzDN\n4LB/SCEIXY+4fnDSZ+NyBFKPicMQ1BML4xUcdzdSUvTGWx83k/J3CQzRleaQntSQ\nzI1T2sW3rQKBgQC86ye/ll9ek+lbFA60B2IXEUoyb4hMrg2OpUz66Mvtle0MY1OI\nMFfssJy1cm2GKeqR6q80A+YZ8G/oJRJgu4P+yhr0PEnSzfxwTUaWre3rrZ8pxxkp\nvXj1BPXQBoYoyWbHUziUP1mxPxpW49+u+F5gbeAHl0UM/XMbAy4dWo1AqwKBgE/x\nCsultlg89Q5hnfnkKPQINMBHGTqiu0CkPDEFDzAs1r0XR+P0cjia6HyceSDZpkcX\n+j5sZ3tYJVqSBtgQB/oWBMP4WFEn/IVgQvKPQQvCQWwfA5EAiZZiCM8869tEPGmP\n4k0gNQqPw0UsA3ia4qB2FoR5Tv9XNidVRsiMvPfVAoGBAIKe/dsPNOLpUAPsuZ6g\nd+NrY0arSw+qswkSa1mGJt+l5A5wvs86eUbZfEeAxElzV6ZNZFhgnu6desrw5Kzm\niJSUCfLl3KDJwafTr36tQsREcR41b0fNo/PwcpncxkWXnrnxkQtvJ3xdgRYLMyfT\nPJw0A+fu+qTT2y9bFfDDddtD\n-----END PRIVATE KEY-----\n",
+  "client_email": "indolytics-salim@indolytics-sample.iam.gserviceaccount.com",
+  "client_id": "114194303716374496852",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/indolytics-salim%40indolytics-sample.iam.gserviceaccount.com"
+}
